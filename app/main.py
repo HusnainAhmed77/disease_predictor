@@ -8,13 +8,13 @@ import seaborn as sns
 from pathlib import Path
 from helper import generate_pdf, log_prediction
 
-# Define base directory
+# Define base directory (within app/ folder)
 BASE_DIR = Path(__file__).parent
 
-# Load model and encoders
-model = joblib.load(BASE_DIR / "models/disease_model.pkl")
-symptom_encoder = joblib.load(BASE_DIR / "models/symptom_encoder.pkl")
-disease_encoder = joblib.load(BASE_DIR / "models/disease_encoder.pkl")
+# Load model and encoders directly from app/
+model = joblib.load(BASE_DIR / "disease_model.pkl")
+symptom_encoder = joblib.load(BASE_DIR / "symptom_encoder.pkl")
+disease_encoder = joblib.load(BASE_DIR / "disease_encoder.pkl")
 
 # Load dataset
 df = pd.read_csv(BASE_DIR / "data/data.csv")
