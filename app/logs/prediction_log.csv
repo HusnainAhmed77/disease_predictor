@@ -1,0 +1,5 @@
+timestamp,user_symptoms,matched_diseases,predicted_disease,medicines,steps,duration
+2025-06-24 23:02:37,acidity,"GERD, Migraine",GERD,Omeprazole,"Avoid spicy food, lie upright after meals. Take omeprazole 20mg daily for symptom relief.",2–3 weeks
+2025-06-25 00:44:39,acidity,"GERD, Migraine",GERD,Omeprazole,"Avoid spicy food, lie upright after meals. Take omeprazole 20mg daily for symptom relief.",2–3 weeks
+2025-06-25 00:44:43,acidity,"GERD, Migraine",GERD,Omeprazole,"Avoid spicy food, lie upright after meals. Take omeprazole 20mg daily for symptom relief.",2–3 weeks
+2025-06-25 00:44:46,acidity,"GERD, Migraine",GERD,Omeprazole,"Avoid spicy food, lie upright after meals. Take omeprazole 20mg daily for symptom relief.",2–3 weeks

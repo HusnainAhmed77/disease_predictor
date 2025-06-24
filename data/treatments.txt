@@ -1,0 +1,205 @@
+Malaria:
+Medicines: artemisinin-based combination therapy (ACT), intravenous quinine, paracetamol
+Steps: Take ACT twice daily for 3 days. In severe cases, use intravenous quinine. Stay hydrated and manage fever.
+Duration: 7–10 days
+
+Diabetes:
+Medicines: Metformin, insulin
+Steps: Adopt a balanced diet and exercise regularly. Take Metformin 500mg with meals. Use insulin if uncontrolled.
+Duration: Long-term; improvement in 2–4 weeks
+
+Hypertension:
+Medicines: Lisinopril, Atenolol
+Steps: Reduce sodium intake. Manage stress and exercise. Take prescribed antihypertensives.
+Duration: 4–6 weeks for stabilization
+
+Tuberculosis:
+Medicines: isoniazid, rifampicin, pyrazinamide, ethambutol
+Steps: 2-month intensive phase with 4 drugs, followed by 4-month continuation phase. Use DOT when needed.
+Duration: 6–8 months
+
+Migraine:
+Medicines: Sumatriptan, ibuprofen, propranolol
+Steps: Avoid triggers. Take NSAIDs or triptans during attack. Use beta blockers preventively.
+Duration: 1–2 days per episode
+
+GERD:
+Medicines: Omeprazole
+Steps: Avoid spicy food, lie upright after meals. Take omeprazole 20mg daily for symptom relief.
+Duration: 2–3 weeks
+
+Hepatitis B:
+Medicines: Tenofovir, Entecavir
+Steps: Take antiviral therapy. Eat protein-rich foods. Monitor liver function monthly.
+Duration: 3–6 months for acute, lifelong monitoring if chronic
+
+Dengue:
+Medicines: Paracetamol, oral rehydration salts (ORS)
+Steps: Manage fever with paracetamol. Avoid NSAIDs. Maintain hydration and monitor platelets.
+Duration: 7–10 days
+
+Fungal infection:
+Medicines: Clotrimazole, Fluconazole
+Steps: Apply antifungal cream twice daily. In severe cases, use oral fluconazole.
+Duration: 2–4 weeks
+
+Pneumonia:
+Medicines: Azithromycin, Amoxicillin
+Steps: Take antibiotics as prescribed. Rest, hydrate, and monitor symptoms. Hospitalize if severe.
+Duration: 1–3 weeks
+
+Common Cold:
+Medicines: Paracetamol, decongestants
+Steps: Rest, take vitamin C, stay hydrated. Use symptom relief meds as needed.
+Duration: 3–7 days
+
+Heart attack:
+Medicines: Aspirin, beta-blockers, nitrates, statins
+Steps: Call emergency services. Chew aspirin immediately. Undergo angioplasty if required. Begin cardiac rehab.
+Duration: 4–6 weeks post-treatment
+
+AIDS:
+Medicines: Antiretroviral therapy (ART) including Tenofovir, Lamivudine, Efavirenz
+Steps: Begin ART as early as possible. Monitor CD4 count and viral load regularly. Manage opportunistic infections.
+Duration: Lifelong
+
+Acne:
+Medicines: Benzoyl peroxide, salicylic acid, clindamycin, retinoids
+Steps: Wash face twice daily. Use topical treatments. For severe cases, oral antibiotics or isotretinoin may be prescribed.
+Duration: Weeks to months depending on severity
+
+Alcoholic hepatitis:
+Medicines: Prednisolone, pentoxifylline, vitamin supplements
+Steps: Stop alcohol intake immediately. Begin steroid therapy if indicated. Provide nutritional support.
+Duration: Several weeks to months depending on severity
+
+Allergy:
+Medicines: Antihistamines (cetirizine, loratadine), corticosteroids
+Steps: Identify and avoid allergen. Use antihistamines to control symptoms. Severe reactions may require epinephrine.
+Duration: Varies; chronic management may be needed
+
+Arthritis:
+Medicines: NSAIDs, corticosteroids, DMARDs (methotrexate), biologics
+Steps: Regular exercise and physiotherapy. Pain management. Disease-modifying agents for rheumatoid arthritis.
+Duration: Lifelong with symptom control
+
+Bronchial Asthma:
+Medicines: Salbutamol, corticosteroid inhalers, leukotriene modifiers
+Steps: Avoid triggers. Use rescue inhalers during attacks. Maintain controller medication daily.
+Duration: Lifelong condition with ongoing management
+
+Cervical spondylosis:
+Medicines: NSAIDs, muscle relaxants, physiotherapy
+Steps: Perform neck-strengthening exercises. Apply hot/cold packs. Use cervical collar if needed.
+Duration: Symptom relief within 2–6 weeks; may recur
+
+Chicken pox:
+Medicines: Acyclovir (if severe), calamine lotion, antihistamines
+Steps: Isolate patient. Use lotions for itching. Maintain hydration. Antivirals in high-risk individuals.
+Duration: 7–10 days
+
+Chronic cholestasis:
+Medicines: Ursodeoxycholic acid, antihistamines, fat-soluble vitamins
+Steps: Treat underlying cause. Reduce itching. Maintain nutritional support.
+Duration: Chronic management depending on cause
+
+Dimorphic hemmorhoids(piles):
+Medicines: Topical corticosteroids, stool softeners, witch hazel
+Steps: Increase fiber intake. Use warm sitz baths. In severe cases, consider surgical options.
+Duration: Symptom relief within 1–2 weeks
+
+Drug Reaction:
+Medicines: Antihistamines, corticosteroids, stop causative drug
+Steps: Discontinue the offending drug immediately. Manage symptoms with supportive care and medications.
+Duration: 1–3 weeks depending on severity
+
+Gastroenteritis:
+Medicines: Oral rehydration salts, antiemetics, antibiotics (if bacterial)
+Steps: Stop solid food temporarily. Rehydrate. Gradually reintroduce bland foods.
+Duration: 3–7 days
+
+Hepatitis C:
+Medicines: Sofosbuvir, Ledipasvir, Ribavirin
+Steps: Initiate antiviral therapy. Monitor liver function. Avoid alcohol and hepatotoxic drugs.
+Duration: 8–12 weeks for most regimens
+
+Hepatitis D:
+Medicines: Pegylated interferon-alpha
+Steps: Monitor liver function. Treat co-infection with Hepatitis B. Antiviral therapy may be limited.
+Duration: 6–12 months; varies with response
+
+Hepatitis E:
+Medicines: Supportive care, ribavirin (in chronic cases)
+Steps: Ensure hygiene and clean drinking water. Hospitalize if pregnant or severely ill.
+Duration: 2–6 weeks
+
+Hyperthyroidism:
+Medicines: Methimazole, beta-blockers, radioactive iodine
+Steps: Control symptoms with beta-blockers. Use antithyroid medications or consider surgery.
+Duration: Several months; may require lifelong management
+
+Hypoglycemia:
+Medicines: Glucose tablets, glucagon (for emergencies)
+Steps: Take quick-acting carbohydrate. Recheck sugar after 15 mins. Seek help if unresponsive.
+Duration: Immediate management; address root cause long term
+
+Hypothyroidism:
+Medicines: Levothyroxine
+Steps: Take hormone replacement daily on empty stomach. Monitor TSH levels regularly.
+Duration: Lifelong
+
+Impetigo:
+Medicines: Mupirocin ointment, oral antibiotics (cephalexin)
+Steps: Clean lesions with warm water. Apply topical antibiotics. Avoid scratching.
+Duration: 7–10 days
+
+Jaundice:
+Medicines: Depends on cause (antivirals, fluids, liver support)
+Steps: Rest. Hydrate. Monitor liver function. Treat underlying condition (e.g. Hepatitis, bile duct obstruction).
+Duration: Varies widely (days to weeks)
+
+Osteoarthristis:
+Medicines: Acetaminophen, NSAIDs, glucosamine
+Steps: Weight loss, exercise, use of braces or support. Pain relief medication.
+Duration: Chronic condition with long-term management
+
+Paralysis (brain hemorrhage):
+Medicines: Antihypertensives, anticoagulants (if ischemic), physiotherapy
+Steps: Hospital admission. Neuro rehab. Long-term physical therapy and support.
+Duration: Months to years depending on severity
+
+Peptic ulcer disease:
+Medicines: PPIs (omeprazole), H2 blockers, antibiotics for H. pylori
+Steps: Avoid spicy foods, NSAIDs, alcohol. Take medication as prescribed.
+Duration: 2–6 weeks
+
+Psoriasis:
+Medicines: Topical corticosteroids, vitamin D analogs, biologics
+Steps: Moisturize regularly. Avoid triggers like stress and injury. Phototherapy in severe cases.
+Duration: Chronic with flare management
+
+Typhoid:
+Medicines: Cefixime, azithromycin
+Steps: Maintain hydration. Take full antibiotic course. Eat soft bland diet.
+Duration: 7–14 days
+
+Urinary tract infection:
+Medicines: Nitrofurantoin, ciprofloxacin
+Steps: Increase fluid intake. Take prescribed antibiotics. Practice hygiene.
+Duration: 3–7 days
+
+Varicose veins:
+Medicines: Compression stockings, topical analgesics
+Steps: Elevate legs. Avoid prolonged standing. Surgical options in severe cases.
+Duration: Varies; symptoms may persist if untreated
+
+Hepatitis A:
+Medicines: Supportive care only
+Steps: Ensure rest, fluids, and hygiene. No specific antivirals. Vaccinate contacts if needed.
+Duration: 2–6 weeks
+
+Paroymsal  Positional Vertigo:
+Medicines: Meclizine, betahistine
+Steps: Perform Epley maneuver. Avoid sudden head movements. Vestibular rehab if persistent.
+Duration: Days to weeks
+
