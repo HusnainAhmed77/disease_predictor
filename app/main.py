@@ -8,9 +8,9 @@ import seaborn as sns
 from helper import generate_pdf, log_prediction
 
 # Load model and encoders
-model = joblib.load("app/models/disease_model.pkl")
-symptom_encoder = joblib.load("app/models/symptom_encoder.pkl")
-disease_encoder = joblib.load("app/models/disease_encoder.pkl")
+model = joblib.load("models/disease_model.pkl")
+symptom_encoder = joblib.load("models/symptom_encoder.pkl")
+disease_encoder = joblib.load("models/disease_encoder.pkl")
 
 # Load dataset
 df = pd.read_csv("../data/data.csv")
