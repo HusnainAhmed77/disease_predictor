@@ -5,15 +5,19 @@ import pandas as pd
 import os
 import matplotlib.pyplot as plt
 import seaborn as sns
+from pathlib import Path
 from helper import generate_pdf, log_prediction
 
+# Define base directory
+BASE_DIR = Path(__file__).parent
+
 # Load model and encoders
-model = joblib.load('models/disease_model.pkl')
-symptom_encoder = joblib.load("models/symptom_encoder.pkl")
-disease_encoder = joblib.load("models/disease_encoder.pkl")
+model = joblib.load(BASE_DIR / "models/disease_model.pkl")
+symptom_encoder = joblib.load(BASE_DIR / "models/symptom_encoder.pkl")
+disease_encoder = joblib.load(BASE_DIR / "models/disease_encoder.pkl")
 
 # Load dataset
-df = pd.read_csv("../data/data.csv")
+df = pd.read_csv(BASE_DIR / "data/data.csv")
 
 # Load treatments
 def parse_treatment_file(path):
@@ -36,7 +40,7 @@ def parse_treatment_file(path):
                     treatment_map[current_disease]["duration"] = line.replace("Duration:", "").strip()
     return treatment_map
 
-treatment_map = parse_treatment_file("../data/treatments.txt")
+treatment_map = parse_treatment_file(BASE_DIR / "data/treatments.txt")
 
 def normalize_disease_name(name):
     name = name.lower().strip()
@@ -134,27 +138,24 @@ viz_option = st.radio("Choose a chart to view:", ["Top 10 Diseases", "Top Sympto
 if viz_option == "Top 10 Diseases":
     top_diseases = df['Disease'].value_counts().head(10)
     fig, ax = plt.subplots()
-    sns.barplot(x=top_diseases.values, y=top_diseases.index, ax=ax, palette="viridis")
-    ax.set_title("Top 10 Most Frequent Diseases")
-    ax.set_xlabel("Cases")
+    sns.barplot(y=top_diseases.index, x=top_diseases.values, ax=ax)
+    ax.set_title("Top 10 Predicted Diseases")
+    ax.set_xlabel("Frequency")
     ax.set_ylabel("Disease")
     st.pyplot(fig)
 
 elif viz_option == "Top Symptoms":
-    symptom_counts = {}
+    from collections import Counter
+    symptom_list = []
     for val in df["Symptoms"].dropna():
         try:
-            symptoms = ast.literal_eval(val)
-            for s in symptoms:
-                s_clean = s.strip().replace("_", " ").lower()
-                symptom_counts[s_clean] = symptom_counts.get(s_clean, 0) + 1
+            symptom_list += [s.strip().replace("_", " ").lower() for s in ast.literal_eval(val)]
         except:
             continue
-
-    top_symptoms = dict(sorted(symptom_counts.items(), key=lambda x: x[1], reverse=True)[:10])
+    top_symptoms = Counter(symptom_list).most_common(10)
     fig, ax = plt.subplots()
-    sns.barplot(x=list(top_symptoms.values()), y=list(top_symptoms.keys()), ax=ax, palette="mako")
-    ax.set_title("Top 10 Symptoms")
-    ax.set_xlabel("Count")
+    sns.barplot(y=[s[0] for s in top_symptoms], x=[s[1] for s in top_symptoms], ax=ax)
+    ax.set_title("Top 10 Most Frequent Symptoms")
+    ax.set_xlabel("Frequency")
     ax.set_ylabel("Symptom")
     st.pyplot(fig)
